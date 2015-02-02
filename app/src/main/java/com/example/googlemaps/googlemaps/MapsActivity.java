@@ -146,5 +146,7 @@ public class MapsActivity extends FragmentActivity {
                     startActivity(intent);
                 }
             });
+
+            mMap.setInfoWindowAdapter(new UserInfoWindowsAdapter(getLayoutInflater()));
         }
 }

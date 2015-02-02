@@ -43,6 +43,10 @@
             android:name=".DetailMarker"
             android:label="@string/title_activity_detail_marker" >
         </activity>
+        <activity
+            android:name=".UserInfoWindowsAdapter"
+            android:label="@string/title_activity_user_info_windows_adapter" >
+        </activity>
     </application>
 
 </manifest>

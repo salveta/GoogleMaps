@@ -7,5 +7,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_detail_marker">DetailMarker</string>
+    <string name="title_activity_user_info_windows_adapter">UserInfoWindowsAdapter</string>
+    <string name="iconInfoWindow"></string>
 
 </resources>
