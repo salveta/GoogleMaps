@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    tools:context="com.example.googlemaps.googlemaps.UserInfoWindowsAdapter">
+    tools:context="com.example.googlemaps.googlemaps.LUserInfoWindowsAdapter">
 
     <ImageView
         android:id="@+id/icon"

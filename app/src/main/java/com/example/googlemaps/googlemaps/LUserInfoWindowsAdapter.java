@@ -1,10 +1,6 @@
 package com.example.googlemaps.googlemaps;
 
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -12,13 +8,16 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.Marker;
 
 
-public class UserInfoWindowsAdapter implements GoogleMap.InfoWindowAdapter {
+
+public class LUserInfoWindowsAdapter implements GoogleMap.InfoWindowAdapter {
+
 
     LayoutInflater inflater = null;
 
-    UserInfoWindowsAdapter(LayoutInflater inflater){
+    LUserInfoWindowsAdapter(LayoutInflater inflater){
         this.inflater = inflater;
     }
+
 
 
     @Override
